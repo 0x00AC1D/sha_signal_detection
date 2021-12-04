@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="bayes_opt" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pyspark-stubs==3.0.0.post2" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.union.Prioritization.pyspark" />
+          <option value="src.union.Prioritization.dbutils" />
+          <option value="src.union.Prioritization.spark" />
+          <option value="src.union.Prioritization.display" />
+          <option value="azure_cost_exporter.src.utils.utils.dbutils" />
+          <option value="azure_cost_exporter.src.azure_cost_exporter.dbutils" />
+          <option value="azure_cost_exporter.config.default_constants.dbutils" />
+          <option value="src.union.PrependCRRecommendations.display" />
+          <option value="src.union.PrependCRRecommendations.spark" />
+          <option value="src.configs.w2v_d2v_union.config.dbutils" />
+          <option value="src.configs.w2v_d2v_union.config.sc" />
+          <option value="src.union.UpsellTipUnion.dbutils" />
+          <option value="src.union.UpsellTipUnion.spark" />
+          <option value="src.union.UpsellTipUnion.display" />
+          <option value="src.union.PrependCRRecommendations.dbutils" />
+          <option value="src.utils.dbutils" />
+          <option value="src.utils.spark" />
+          <option value="src.bqw2v.W2V_training.spark" />
+          <option value="src.union.Postfiltering.spark" />
+          <option value="src.union.Postfiltering.dbutils" />
+          <option value="src.union.Postfiltering.display" />
+          <option value="src.union.SaveToCosmosDB.dbutils" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
